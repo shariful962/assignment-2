@@ -407,5 +407,24 @@ nav, .banner-content {
         gap: 20px;
         align-items: center;
     }
+    .img-display {
+        display: block;
+    }
+    .show-story {
+        display: none;
+    }
+    .story-right-content {
+        grid-template-columns: repeat(2, 200px);
+        grid-gap: 10px;
+    }
+    .story-right-content .right-card .story-btn{
+        
+        font-size: 12px;
+        top: 100px;
+        left: 24px;
+    }
+    .story-right-content .story-title {
+        margin-left: 12px;
+    }
 
 }
