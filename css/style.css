@@ -402,29 +402,10 @@ nav, .banner-content {
         gap: 20px;
     }
     /* Our story section  */
-     .story-content {
+    .story-content{
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
-    .show-story {
-        display: none;
-    }
-    
-    .story-right-content {
-        grid-template-columns: repeat(2, 200px);
-        grid-gap: 10px;
-        
-    }
-    .story-right-content .right-card .story-btn{
-        font-size: 12px;
-        top: 100px;
-        left: 24px;
-        
-    }
-    .story-right-content .story-title {
-        margin-left: 10px;
-    }
-
 
 }
