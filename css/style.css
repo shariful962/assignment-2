@@ -389,7 +389,21 @@ footer .footer-content {
 .footer-content .education {
     max-width: 350px;
 }
-
+.education .footer-logo .logo{
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+.education .footer-logo .logo .line {
+	position: absolute;
+	height: 12px;
+	width: 55px;
+	background-color: #fff;
+	border-radius: 40px 50px; 
+	top: 58%;
+	opacity: 0.9;
+	left: 4%;
+}
  .education .footer-logo img {
     height: 62px;
     width: 62px;
