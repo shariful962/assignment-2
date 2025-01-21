@@ -380,14 +380,13 @@ footer .footer-content {
 .footer-content .education {
     max-width: 350px;
 }
-.education .footer-logo  {
-    /* align-items: center; */
-}
-.education .footer-logo img {
+
+ .education .footer-logo img {
     height: 62px;
     width: 62px;
     margin-top: 5px;
 }
+
 .footer-logo .brand {
     font-size: 2.625rem;
     font-weight: 700;
@@ -481,4 +480,24 @@ footer .footer-content {
         margin-left: 12px;
     }
 
+    /* footer sectin design  */
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;  
+    }
+    .footer-content .education {
+        max-width: 90%; 
+        margin-left: 10px; 
+         
+    }
+    .footer-content .education .edu-des {
+        margin-left: 10px;
+    }
+    .footer-logo {
+        margin-left: -15px;
+    }
+    .about-school,
+    .social-icon {
+        margin-left: 20px;
+    }
 }
