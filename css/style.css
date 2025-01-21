@@ -250,12 +250,11 @@ nav, .banner-content {
 /* standard curiculum section design end */
 /* our story section design start  */
 .story{
-    margin-bottom: 100px;
     background-image: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   padding: 25px;
+    padding: 25px;
    
 }
 .story .section-title{
@@ -366,6 +365,61 @@ nav, .banner-content {
 }
 
 /* our story section design end */
+
+/* footer design start  */
+footer {
+    background-color: #01ACFD;
+    padding: 80px 0;
+}
+footer .footer-content {
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-content .education {
+    max-width: 350px;
+}
+.education .footer-logo  {
+    /* align-items: center; */
+}
+.education .footer-logo img {
+    height: 62px;
+    width: 62px;
+    margin-top: 5px;
+}
+.footer-logo .brand {
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+    line-height: 40px;
+    margin-bottom: 35px;
+    color: var(--white);
+
+}
+.education .edu-des {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.footer-content .footer-title {
+    margin-bottom: 35px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+}
+.about-school ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.about-school ul li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--white);
+
+}
+/* footer design end */
 /* media query  */
 @media screen and (max-width: 576px){
    /* navbar sectin  */
