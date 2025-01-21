@@ -410,12 +410,13 @@ nav, .banner-content {
     .show-story {
         display: none;
     }
+    
     .story-right-content {
         grid-template-columns: repeat(2, 200px);
         grid-gap: 10px;
         
     }
-    /* .story-right-content .right-card .story-btn{
+    .story-right-content .right-card .story-btn{
         font-size: 12px;
         top: 100px;
         left: 24px;
@@ -426,4 +427,4 @@ nav, .banner-content {
     }
 
 
-} */
+}
